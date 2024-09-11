@@ -2,7 +2,7 @@
 alert('Boas vindas ao jogo do número secreto');
 
 // Cria o número aleatório através do método matemático padrão do javascript
-let numeroSecreto = parseInt(Math.random() * 10 + 1);
+let numeroSecreto = parseInt(Math.random() * 100 + 1);
 console.log(numeroSecreto) // Informa o número secreto no console do navegador
 
 // Define as variáveis chute e tentativas
